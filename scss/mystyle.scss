@@ -1,0 +1,404 @@
+$sp-red: #ed2541;
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: white;
+}
+.container {
+    width: 1024px;
+}
+
+.header-container{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    img {
+        width: 100%;
+        height:auto;
+    }
+    h1 {
+        padding-top: 10px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: left;
+        font-family:"Times New Roman", Times, serif;
+    }
+}
+.myprofile {
+    background-color: $sp-red;
+    margin-top: 10px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.modal-body {
+    background-color: $sp-red;
+    p {
+        font-size: 20px;
+        color: white;
+        font-family:"Times New Roman", Times, serif;
+    }
+}
+.nav-nav-bar{
+    display: block;
+    z-index: 1;
+    height: 100px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($sp-red, #A73333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($sp-red, #A73333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($sp-red, #A73333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($sp-red, #A73333); /* Standard syntax */
+    .nav-align {
+        margin-top: 50px;
+        a {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            padding-right:30px;
+        }
+    }
+}
+
+#myCarousel {
+    margin-top: 0px;
+    display: block;
+    padding-top: 0px;
+    .carousel-indicators{
+        li {
+            border: 1px solid $sp-red;
+        }
+    }
+    .carousel-indicators .active {
+        background-color: $sp-red;
+    }
+    .carousel-inner {
+        .item > img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+    }
+}
+.layout {
+    margin-left: 90px;
+    .box{
+        text-align: center;
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+
+        background: white; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(white 40%, $sp-red); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(white 40%, $sp-red); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(white 40%, $sp-red); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(white 40%, #B40A0A); /* Standard syntax */
+        img {
+            // background-size: cover;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-weight: bold;
+            text-align: center;
+            font-family:"Times New Roman", Times, serif;
+            color: black;
+        }
+        p {
+            font-size: 16px;
+            color: white;
+        }
+        a:link {
+            color: black;
+        }
+    }
+}
+.subtitle {
+    text-align: center;
+    h1 {
+        font-family: calibri;
+        margin-bottom: 50px;
+        margin-top: 70px;
+        font-size: 48px;
+        font-weight: bold;
+        color: $sp-red;
+    }
+}
+#changetotime {
+    padding: 10px;
+    text-align: center;
+    color: lightgrey;
+}
+
+
+.fix {
+    top: 330px;
+    width: 25%;
+    max-height: 500px;
+    position: fixed;
+    z-index: 1;
+}
+
+.Delivery {
+    margin-top: 50px;
+}
+.footer {
+    margin-top:10px;
+    background: black;
+}
+.list {
+    padding-top: 10px;
+}
+.categorieslist {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding:5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    background-color: lightgrey;
+
+}
+.categoryname{
+    margin-left: 15px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($sp-red, #A73333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($sp-red, #A73333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($sp-red, #A73333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($sp-red, #A73333); /* Standard syntax */
+    h2 {
+        font-weight: bold;
+        padding: none;
+        color: white;
+    }
+}
+.buildings {
+    img {
+        width: 100%;
+        height: 200px;
+    }
+}
+.text {
+    display: block;
+    width: 300px;
+}
+textarea {
+    width:300px;
+    height:200px;
+    margin-bottom: 10px;
+}
+.contact {
+    margin-top: 100px;
+}
+
+/*Variable class name*/
+.nopadding {
+    padding: 0px !important;
+}
+.spcolor {
+    color: $sp-red;
+}
+.textalign {
+    text-align: center;
+}
+.textjustify {
+    text-align: justify;
+}
+.padding-left {
+    padding-left: 180px;
+}
+.padding-right {
+    padding-right: 180px;
+}
+.margin-top {
+    margin-top: 50px;
+}
+.border-top {
+    border-top: 3px dashed lightgrey;
+}
+.shitft-left {
+    text-align: left;
+}
+
+
+@media screen and (min-width: 320px) {
+    .categoryname{
+        margin-left: 0px;
+    }
+    .products-box {
+        margin-left: 0px;
+        border: 1px solid lightgrey;
+        display: inline-block;
+        img{
+            width: 100%;
+        }
+        p {
+            padding: 5px;
+        }
+        width: 100%;
+    }
+    .padding-left {
+        padding-left: 30px;
+    }
+    .padding-right {
+        padding-right: 30px;
+    }
+    .subtitle {
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .no-padding {
+        padding: 0px;
+    }
+    .nav-nav-bar {
+        .nav-align {
+            margin-top: 10px;
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+    .myprofile{
+        display: none;
+    }
+    .layout {
+        margin-left: 0px;
+        .box {
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+@media screen and (min-width: 480px) {
+    .nav-nav-bar {
+        .nav-align {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .categoryname{
+            width:78.5%;
+    }
+    .list{
+        padding-left:100px;
+    }
+    .subtitle {
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .categoryname{
+        margin-left: 15px;
+    }
+    .products-box {
+        margin-left: 15px;
+        img{
+            width: 100%;
+        }
+        p {
+            padding: 5px;
+        }
+        width: 200px;
+    }
+}
+@media screen and (min-width: 990px) {
+    .categoryname{
+            width:84%;
+    }
+    .padding-left {
+        padding-left: 180px;
+    }
+    .padding-right {
+        padding-right: 180px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .categoryname{
+            width:95%;
+    }
+    .fix {
+        width: 25%;
+    }
+    .header-container {
+        h1 {
+            font-size: 20px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .layout {
+        margin-left: 100px;
+        .box {
+            margin-bottom: 0px;
+        }
+    }
+    .myprofile{
+        display: inline-block;
+        margin-left: 8%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .fix {
+        width: 20%;
+        margin-left: 30px;
+    }
+    .myprofile{
+        margin-left: 10%;
+    }
+    .categoryname{
+            width:90%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .categoryname{
+            width:86%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .layout {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .header-container {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .myprofile {
+        margin-left: 15%;
+        margin-top: 25px;
+    }
+    .layout {
+        margin-left: 200px;
+    }
+    .fix {
+        width: 15%;
+    }
+}
