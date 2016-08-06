@@ -165,8 +165,8 @@ html, body {
 }
 
 .fix {
-  top: 330px;
-  width: 25%;
+  top: 359px;
+  margin-left: 10px;
   max-height: 500px;
   position: fixed;
   z-index: 1;
@@ -280,6 +280,7 @@ textarea {
     margin-left: 0px;
     border: 1px solid lightgrey;
     display: inline-block;
+    margin-bottom: 10px;
     width: 100%;
   }
   .products-box img {
@@ -371,9 +372,6 @@ textarea {
   .categoryname {
     width: 95%;
   }
-  .fix {
-    width: 25%;
-  }
   .header-container h1 {
     font-size: 20px;
     padding-bottom: 10px;
@@ -395,10 +393,6 @@ textarea {
 }
 
 @media screen and (min-width: 1200px) {
-  .fix {
-    width: 20%;
-    margin-left: 30px;
-  }
   .myprofile {
     margin-left: 10%;
   }
@@ -429,8 +423,5 @@ textarea {
   }
   .layout {
     margin-left: 200px;
-  }
-  .fix {
-    width: 15%;
   }
 }
