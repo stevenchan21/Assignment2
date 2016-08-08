@@ -176,6 +176,10 @@ html, body {
   z-index: 1;
 }
 
+.fix ul li {
+  color: #ed2541;
+}
+
 .Delivery {
   margin-top: 50px;
 }
@@ -282,6 +286,9 @@ textarea {
 }
 
 @media screen and (min-width: 320px) {
+  .container h3 {
+    margin-top: 250px;
+  }
   .categoryname {
     margin-left: 0px;
   }
@@ -338,6 +345,12 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 1024px;
+  }
+  .container h3 {
+    margin-top: 100px;
+  }
   .categoryname {
     width: 78.5%;
   }
@@ -366,6 +379,12 @@ textarea {
 }
 
 @media screen and (min-width: 990px) {
+  .container {
+    width: 1024px;
+  }
+  .container h3 {
+    margin-top: 80px;
+  }
   .categoryname {
     width: 84%;
   }
@@ -378,8 +397,17 @@ textarea {
 }
 
 @media screen and (min-width: 1000px) {
+  .nav-nav-bar .nav-align a {
+    font-size: 19px;
+  }
+  .container {
+    width: 1024px;
+  }
+  .container h3 {
+    margin-top: 50px;
+  }
   .categoryname {
-    width: 95%;
+    width: 81.3%;
   }
   .header-container h1 {
     font-size: 20px;
@@ -397,7 +425,7 @@ textarea {
   }
   .myprofile {
     display: inline-block;
-    margin-left: 8%;
+    margin-left: 6%;
   }
 }
 
