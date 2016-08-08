@@ -11,6 +11,9 @@ html,body
 }
 .container {
     width: 1024px;
+    h3 {
+        margin-top:50px;
+    }
 }
 
 .header-container{
@@ -201,6 +204,10 @@ textarea {
 }
 .contact {
     margin-top: 100px;
+    margin-bottom: 180px;
+}
+.content {
+    margin-bottom: 150px;
 }
 
 /*Variable class name*/
